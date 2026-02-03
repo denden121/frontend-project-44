@@ -7,3 +7,6 @@
 
 ### brain-calc (Калькулятор)
 Запись с запуском и разными исходами игры: [asciinema](https://asciinema.org/a/8XeFT44Ihq8N4Bbh)
+
+### brain-gcd (НОД)
+Запись с запуском и разными исходами игры: [asciinema](https://asciinema.org/) — добавьте ссылку после публикации.
