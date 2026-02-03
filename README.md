@@ -11,3 +11,6 @@
 
 ### brain-gcd (НОД)
 Запись с запуском и разными исходами игры: [asciinema](https://asciinema.org/a/lxSuqaDeYueouT4W)
+
+### brain-progression (Арифметическая прогрессия)
+Запись с запуском и разными исходами игры: [asciinema](https://asciinema.org/) 
