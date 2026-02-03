@@ -1,3 +1,5 @@
+import { getRandomInt } from '../utils/random.js'
+
 const OPERATORS = ['+', '-', '*']
 
 const applyOp = (a, b, op) => {
@@ -16,9 +18,9 @@ const applyOp = (a, b, op) => {
 export default {
   description: 'What is the result of the expression?',
   getRound() {
-    const a = Math.floor(Math.random() * 100) + 1
-    const b = Math.floor(Math.random() * 100) + 1
-    const op = OPERATORS[Math.floor(Math.random() * OPERATORS.length)]
+    const a = getRandomInt(1, 100)
+    const b = getRandomInt(1, 100)
+    const op = OPERATORS[getRandomInt(0, OPERATORS.length - 1)]
     const question = `${a} ${op} ${b}`
     const correctAnswer = String(applyOp(a, b, op))
     return { question, correctAnswer }
