@@ -3,3 +3,6 @@ brain-even
 brain-calc
 brain-gcd
 brain-progression
+brain-prime
+.DS_Store
+*.log
